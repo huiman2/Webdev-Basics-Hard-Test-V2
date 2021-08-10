@@ -1,0 +1,258 @@
+/* Navbar */
+
+.box1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1498230870289-7561110a6e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    background-attachment: scroll;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    padding-bottom: 12.25em;
+}
+
+/* Long Navbar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.logo {
+    font-size: 20.5px;
+    font-weight: bold;
+}
+
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav-right {
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Short Navbar */
+
+.navbar-brand {
+    font-size: 20.5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.nav-item a {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 990px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #navbar {
+        display: none;
+    }
+}
+
+/* Special Hover Effect for JS */
+.HoverClass1:hover {color: teal !important;}
+
+.HoverClass2:hover {color: rgba(255, 255, 255, 0.5) !important;}
+
+
+/* Heading */
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 193px;
+}
+
+.headingcenter {
+    max-width: 730px;
+    /* Puts button on right side */
+    display: flex;
+    flex-direction: column;
+    /* Minimizes column in flex box when out of bound */
+    min-width: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+.heading h2 {
+    font-size: 26px;
+    letter-spacing: 0px;
+}
+
+/* Articles */
+
+.articles {
+    display: flex;
+    /* background-color: yellow; */
+}
+
+/*
+.boxleft, .boxright {
+    background-color: violet;
+}
+*/
+
+.boxcenter {
+    max-width: 730px;
+    /* Puts button on right side */
+    display: flex;
+    flex-direction: column;
+    /* Minimizes column in flex box when out of bound */
+    min-width: 0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .boxcenter {
+        max-width: 610px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .boxcenter {
+        max-width: 570px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .boxcenter {
+        max-width: 510px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .boxcenter {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+.articles > * {
+    flex: 1 1 auto;
+}
+
+.boxleft, .boxcenter, .boxright {
+    margin-top: 62px;
+}
+
+.boxcenter h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.boxcenter h3{
+    font-size: 32px;
+}
+
+.btn {
+    background-color: teal;
+    border-radius: 0;
+    color: white;
+    font-size: medium;
+    padding: 14px 25px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(85%);
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.writing p {
+    font-size: 20.8px;
+    line-height: 1.49;
+    margin-bottom: 30.5px;
+}
+
+.form-control {
+    border: none;
+    font-size: 21px;
+}
+
+.form-control {
+    padding-left: 0px;
+}
+
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+  }
+
+/* Footer */
+
+.containerfooter {
+    display: flex;
+    justify-content:center;
+}
+
+.fa-envelope, .fa-twitter, .fa-facebook-f, .fa-github {
+    font-size: 24px;
+    color: white;
+    padding-left: 14.2px;
+    padding-top: 14px;
+}
+
+.fa-facebook-f {
+    padding-left: 17px;
+}
+
+.circle {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.circle:hover {
+    background-color: teal;
+}
+
+.box2 p {
+    font-size: 15px;
+}
