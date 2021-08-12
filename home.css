@@ -219,6 +219,10 @@ button {
     color: white;
 }
 
+.btnposition {
+    margin-left: auto;
+}
+
 /* Footer */
 
 hr {
